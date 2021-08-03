@@ -5,7 +5,7 @@ const db = new Database('./db.json');
 if (!db.has('subscriptions')) db.set('subscriptions', []);
 
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const client = new Discord.Client(ODcyMjQzNzYzMzcwNjY4MDky.YQnCTg.lGgkfQciNHs-igwwgPu1lHkonPc);
 
 const vinted = require('vinted-api');
 
